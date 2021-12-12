@@ -19,10 +19,10 @@ public class CustomerOperationsController {
 	}
 	
 	
-	/*@GetMapping("/access")
+	@GetMapping("/access")
 	public String getData() {
 		return("helloworld");
-	}*/
+	}
      
 	// 415 error unupported media type error when do not added the jackson dependency
 }
