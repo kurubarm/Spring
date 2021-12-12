@@ -18,6 +18,7 @@ public class CustomerOperationsController {
 		return cust.toString();
 	}
 	
+	// used for accessing helloworld
 	@GetMapping("/access")
 	public String getData() {
 		return("helloworld");
